@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: #5D6063;
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3em;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  
+  header {
+    text-align: center;
+    color: #FFF;
+  }
+  
+  nav {
+    background-color: #000000;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  nav li {
+    list-style-type: none;
+    width: 50%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-top: 1px solid #888F95;
+  }
+  
+  nav li:nth-of-type(1),
+  nav li:nth-of-type(2) {
+    border-top: none;
+  }
+  
+  nav li:nth-of-type(2n) {
+    border-left: 1px solid #888F95;
+  }
+  
+  nav li.selected {
+    color: #54A5C4;
+  }
+  
+  nav a:link,
+  nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  nav a:hover,
+  nav a:visited:hover,
+  nav a:active,
+  nav a:visited:active {
+    color: #54A5C4;
+    text-decoration: underline;
+  }
+  .button:link,
+  .button:visited {
+    display: block;
+    text-decoration: none;
+  
+    color: #FFF;
+    background-color: #4A90E2;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1.8em auto;
+  }
+  
+  .button:hover,
+  .button:visited:hover {
+    color: #FFF;
+    background-color: #6AA9F4;
+  }
+  
+  .button:active,
+  .button:visited:active {
+    color: #FFF;
+    background-color: #3F7CC4;
+  }
+  
+  /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: #ffffff; 
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+    }  
+    body {
+      background-color: #ffffff; 
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+    }  
+    body {
+      background-color: #ffffff;
+    }
+  }
+  
+    nav li {
+      width: auto;
+      border-top: none;
+    }
+  
+    nav li:nth-of-type(2n) {
+      border-left: none;
+    }
+    
+    .hero {
+        background-color: #4A90E2;
+        height: 250px;
+    }
+
+    .photo {
+        height: 200px;
+        align-items: flex-start;
+        width: 20%;
+        margin-left: 8%;
+        position: relative;
+        top: 20px;
+    }
+
+   .hero h1 {
+    width: 50%;
+    text-align: left;
+    font-size: 70px;
+    position: relative;
+    left: 40%;
+    bottom: 120px;
+   }
+
+.section {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .page {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+      }
+      
+      .actual {
+        background-image: url(assets/img/actual.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 40%; 
+        color:rgb(255, 255, 255);
+        font-size: 25px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 5%;
+        padding-left: 5%;
+        font-size: 35px;
+      }
+
+      .actual-1 {
+        background-color: #05c58b;
+        width: 40%; 
+        color:rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        margin-right: 10%;
+        margin-top: 5%;
+        display:flex;
+        flex-flow: wrap column;
+      }
+
+      .actual-1 h2 {
+        font-size: 30px;
+        padding-bottom: 3%;
+      }
+
+      .actual-1 p {
+        font-size: 15px;
+      }
+
+      .work-exp {
+        background-image: url(assets/img/work-exp.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 40%; 
+        color:rgb(0, 0, 0);
+        font-size: 25px;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 5%;
+        padding-right: 5%;
+        font-size: 35px;
+        height: 350px;
+      }
+
+      .work-exp-1 {
+        background-color: #05c58b;
+        width: 40%; 
+        color:rgb(255, 255, 255);
+        justify-content: center;
+        margin-right: 10%;
+        margin-top: 5%;
+        display:flex;
+        flex-flow: wrap column;
+        padding-top: 5px;
+        height: 350px;
+      }
+
+      .work-exp-1 h2{
+        font-size: 20px;
+      }
+
+      .work-exp-1 p {
+        font-size: 15px;
+        align-items: center;
+      }
+      .work-exp-1 ul {
+        text-align: left;
+        padding-bottom: 0%;
+        align-items: center;
+        
+      }
+      .education {
+        background-image: url(assets/img/education.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 40%; 
+        color:rgb(0, 0, 0);
+        font-size: 25px;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 5%;
+        padding-right: 5%;
+        font-size: 35px;
+      }
+
+      .education-1 {
+        background-color: #05c58b;
+        width: 40%; 
+        color:rgb(255, 255, 255);
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10%;
+        margin-top: 5%;
+        display:flex;
+        flex-flow: wrap column;
+      }
+
+      .education-1 h2 {
+        font-size: 30px;
+        padding-bottom: 3%;
+      }
+
+      .education-1 p {
+        font-size: 15px;
+        text-align: left;
+      }
+
+      .skills {
+        background-image: url(assets/img/skills.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 40%; 
+        color:rgb(255, 255, 255);
+        font-size: 25px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-left: 5%;
+        font-size: 35px;
+      }
+
+      .skills-1 {
+        background-color: #05c58b;
+        width: 40%; 
+        color:rgb(255, 255, 255);
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display:flex;
+        flex-flow: wrap column;
+      }
+
+      .skills-1 ul {
+        font-size: 15px;
+      }

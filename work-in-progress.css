@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: #000000;
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3em;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+  }
+
+    /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: #ffffff; 
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+    }  
+    body {
+      background-color: #ffffff; 
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+    }  
+    body {
+      background-color: #ffffff;
+    }
+  }
+
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(assets/img/workinprogess-bg.svg);
+    height: 625px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-flow: wrap column;
+  }
+
+  .text {
+    border: 5px solid rgb(0, 0, 0);
+    width: 55%;
+    border-radius: 5%;
+    height: 40%;
+    color: #000000;
+    background-color: rgb(219, 219, 27);
+  }
+
+  .text h1 {
+    font-size: 100px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .text p {
+    font-size: 30px;
+  }
+
+  .home {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(219, 219, 27);
+    border: 4px solid black;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-top: 20px;     
+  }
+
+  .button:link,               
+  .button:visited {             
+    display: block;             
+    text-decoration: none;      
+    color: #000000;
+    }
+ 
