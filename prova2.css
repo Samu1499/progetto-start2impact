@@ -113,38 +113,7 @@
     color: #FFF;
     background-color: #3F7CC4;
   }
-  
-  /* Mobile Styles */
-@media only screen and (max-width: 400px) {
-    body {
-      background-color: #ffffff; 
-    }
-  }
-  
-  /* Tablet Styles */
-  @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .sign-up,
-    .feature-1,
-    .feature-2,
-    .feature-3 {
-      width: 50%;
-    }  
-    body {
-      background-color: #ffffff; 
-    }
-  }
-  
-  /* Desktop Styles */
-  @media only screen and (min-width: 961px) {
-    .feature-2,
-    .feature-3 {
-      width: 50%;
-    }  
-    body {
-      background-color: #ffffff;
-    }
-  }
-  
+   
   nav li {
     width: auto;
     border-top: none;
@@ -510,4 +479,19 @@
   }
     
   
- 
+  /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    width:810px; 
+  }
+  nav ul {
+    width: 80%;
+  }
+}
+  
+  
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    
+  }
