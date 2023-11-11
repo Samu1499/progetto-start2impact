@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start2Impact - Contacts</title>
-    <link href='menuprova.css' rel='stylesheet'/>
+    <meta charset="UTF-8">  
+    <title>Contattami</title>
+    <link href='contacts.css' rel='stylesheet'/>
 </head>
 <body>
-    <h3>Ciaoo</h3>
+
+  <header class="header">
+    <nav>
+      <ul>
+        <li><a href='prova2.html'>Home</a></li>
+        <li><a href='curriculum.html'>Curriculum</a></li>
+        <li><a href= 'https://www.youtube.com/channel/UCixjVY5LQFT3ZPZwCli5J0w'>Il Mio Canale</a></li>
+        <li class='selected'>Contattami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Contattami</h1>
+    <form target="_blank" action="https://formsubmit.co/samuele.verulento@gmail.com" method="POST">
+    <p><em>Desideri contattarmi? Compila i seguenti campi!</em></p>
+    <div class='form-row'>
+      <label for='full-name'>Nome</label>
+      <input id='full-name' name='full-name' type='text' required class="form-control" required/>
+    </div>
+
+    <div class='form-row'>
+      <label for='email'>Email</label>
+      <input id='email'
+             name='email'
+             type='email'
+             class="form-control" 
+             placeholder='franco16@mail.com' required/>
+     </div>
+
+    <div class='form-row'>
+      <textarea id='abstract' name='messaggio'></textarea>
+      <div class='instructions'>Aggiungi qui i tuoi pensieri (Max 500 parole)</div>
+            </div>
+    <div class='form-row'>
+      <button type="submit">Invia</button>
+        </div>
+      </form>
+      </div>
 </body>
 </html>

@@ -9,7 +9,6 @@
     font-weight: 300;
     line-height: 1.8em;
     color: #5D6063;
-   
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -28,6 +27,11 @@
   header {
     text-align: center;
     color: #FFF;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 99;
   }
   
   nav {
@@ -102,7 +106,6 @@
     background-color: #3F7CC4;
   }
   
-  
     nav li {
       width: auto;
       border-top: none;
@@ -114,7 +117,8 @@
     
     .hero {
         background-color: #F4D644;
-        height: 250px;
+        height: 320px;
+        padding-top: 50px;
         display: flex;
     }
 
@@ -185,7 +189,7 @@
         background-image: url(assets/img/work-exp.svg);
         background-repeat: no-repeat;
         background-size: 100%;
-        background-color: #F1D229; ;
+        background-color: #F1D229; 
         width: 40%; 
         color:rgb(0, 0, 0);
         font-size: 25px;
@@ -255,7 +259,7 @@
         align-items: center;
         margin-right: 10%;
         margin-top: 5%;
-        display:flex;
+        display: flex;
         flex-flow: wrap column;
       }
 
@@ -319,63 +323,89 @@
       }
 
       /* Mobile Styles */
-@media only screen and (max-width: 425px) {
-  body {
-    width: 100%; 
-  }
-  nav ul {
-    width: 80%;
-  }
-  .hero h1 {
-    padding-left: 30px;
-    position: relative;
-    left: 100px;
-    top: 50px;
+@media only screen and (max-width: 400px) {
+body {
+  width: 500px; 
 }
-.photo {
+nav ul {
+  width: 90%;
+}
+.hero {
+  height: 150px;
+}
+.hero h1 {
+  padding-left: 30px;
   position: relative;
   left: 80px;
+  top: 30px;
+  font-size: 35px;
+}
+.photo {
+  width: 60%;
+  position: relative;
+  left: 50px;
 }
 .actual {
-  height: 200px;
+  height: 100px;
   font-size: 25px;
+  width: 80%;
 }
 .actual-1 {
-  height: 200px;
+  height: 150px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
 }
 .actual-1 h2 {
   font-size: 20px;
+  margin-top: 0%;
 }
 .actual-1 p {
   font-size: 12px;
+  margin-top: 0%;
 }
 .logo {
-  width: 160px;
+  width: 120px;
   margin: 10px;
+  height: 40px;
+  padding: 10px;
 }
 .work-exp {
-  height: 450px;
+  height: 150px;
   font-size: 25px;
+  width: 80%;
 }
 .work-exp-1 {
-  height: 450px;
+ height: 380px;
  padding: 5px;
+ width: 80%;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 0%;
 }
 .work-exp-1 h2 {
-  font-size: 15px;
+  font-size: 18px;
+  padding-bottom: 5px;
 }
 .work-exp-1 p {
-  font-size: 11px;
+  font-size: 15px;
+  padding-bottom: 5px;
 }
 .work-exp-1 ul {
-  font-size: 10px;
+  font-size: 12px;
 }
 .education {
-  height: 200px;
+  height: 150px;
   font-size: 25px;
+  width: 80%;
 }
 .education-1 {
-  height: 200px;
+  height: 150px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
 }
 .education-1 h2 {
   font-size: 20px;
@@ -384,15 +414,22 @@
   font-size: 12px;
 }
 .skills {
-  height: 240px;
   font-size: 25px;
+  height: 150px;
+  font-size: 25px;
+  width: 80%;
+  margin-bottom: 0%;
 }
 .skills-1 {
-  height: 240px;
+  height: 280px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
+  margin-bottom: 30px;
 }
-
 .skills-1 ul {
-  font-size: 10px;
+  font-size: 12px;
 }
 }
 
