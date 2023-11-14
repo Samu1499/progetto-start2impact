@@ -34,7 +34,7 @@
   .page {
     display: flex;
     flex-wrap: wrap;
-    background-image: url(assets/img/workinprogess-bg.svg);
+    background-image: url(../img/workinprogess-bg.svg);
     height: 625px;
     text-align: center;
     align-items: center;

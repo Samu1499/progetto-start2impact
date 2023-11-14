@@ -148,7 +148,7 @@
       }
       
       .actual {
-        background-image: url(assets/img/actual.svg);
+        background-image: url(../img/actual.svg);
         background-repeat: no-repeat;
         background-size: 100%;
         width: 40%; 
@@ -186,7 +186,7 @@
       }
 
       .work-exp {
-        background-image: url(assets/img/work-exp.svg);
+        background-image: url(../img/work-exp.svg);
         background-repeat: no-repeat;
         background-size: 100%;
         background-color: #F1D229; 
@@ -232,7 +232,7 @@
       }
   
       .education {
-        background-image: url(assets/img/education.svg);
+        background-image: url(../img/education.svg);
         background-repeat: no-repeat;
         background-size: 100%;
         width: 40%; 
@@ -275,7 +275,7 @@
       }
 
       .skills {
-        background-image: url(assets/img/skills.svg);
+        background-image: url(../img/skills.svg);
         background-repeat: no-repeat;
         background-size: 100%;
         width: 40%; 
