@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('../img/contactme-desktop.svg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    height: 200px;
+    margin-bottom: 10px;
+    resize: none;
+    width: 300px;
+}
+
+.form-row .instructions {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.inputbox input:invalid {
+    color: #D55C5F;
+    box-shadow: none; 
+   font-weight: bold;
+}
+
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+p{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+  
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.form-row button:hover {
+    background-color: #c0c2c0;
+}
+  
+  
+.form-row button:active {
+    background-color: #2ec01b;
+}
+
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.home p {
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+section {
+    background: url('../img/contactme-mobile.svg')no-repeat;
+ }
+ .form-box {
+    width: 500px;
+ }
+ .form-row {
+    width: 500px;
+ }
+}
+
+ /* Desktop Styles */
+ @media only screen and (min-width: 961px) {
+    section{
+        background: url('../img/contactme-desktop.svg')no-repeat;
+     }
+}

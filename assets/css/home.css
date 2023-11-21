@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+  html,  body {
+    overflow-x: hidden;
+}
+
   body {
     font-family: 'Roboto',sans-serif;
     font-weight: 300;
@@ -131,6 +135,37 @@
     border-left: none;
   }
     
+  a {
+    color:white;
+    text-decoration: none;
+  }
+  
+  .social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    display: table-cell; 
+    vertical-align: middle;
+    text-align:center;
+    justify-content: center;
+    position:relative;
+    left: 1250px;
+    bottom: 125px;
+    font-size: 30px; 
+  }
+  
+  li {
+    align-items: center;
+  }
+  
+  .circle {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+  }
 
   .page {
     display: flex;
@@ -168,6 +203,7 @@
     width: 40%;
     color:rgb(44, 36, 36);
     padding-right: 10px;
+    padding-left: 10px;
     margin-top: 5%;
     margin-right: 10%;
     text-align: left;
@@ -406,15 +442,234 @@
   
   /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  body {
-    width: auto; 
-  }
+  header {
+    font-size: 12px;
+    }
+  
   nav ul {
     width: 90%;
   }
+  
   .hero {
     height: 150px;
+    display: inline-block;
+    width: 100%;
   }
+  
+  .hero h1 {
+    width: 50%;
+    position: relative;
+    left: 130px;
+    bottom: 70px; 
+    font-size: 28px;
+  }
+  
+  .photo {
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .social { 
+    gap: 5px;
+    position:relative;
+    bottom: 250px;
+    left: 330px;
+    font-size: 15px;
+  }
+  
+  .circle {
+    height: 30px;
+    width: 30px;
+  }
+
+  .hero {
+    height: 170px; 
+  }
+  
+  .hero h1 {
+    font-size: 28px;
+    padding: 0;
+    margin-right: 150px;
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+    width: 100px;
+  }
+
+  .content {
+    width: 90%;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100px;
+  }
+  
+  .content h1 {
+    font-size: 35px;
+  }
+      
+  .sign-up {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 9px;
+    padding-left: 0%;
+  }
+  
+  .my-work h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+  .logo-design {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: 250px;
+  }
+          
+  .copywriting {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: 250px;
+    margin-top: 0%;
+  }    
+      
+  .discovery {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: 250px;
+  }
+
+  .wireframing {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: 250px;
+   
+  }
+
+  .ui-design {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 250px;
+    margin-bottom: 5%;
+  }
+
+  .user-test {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 250px;
+    margin-bottom: 5%;
+  }
+
+  .final-exam {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: 250px;
+    
+  }
+
+  .logo-design h1 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .logo-design p {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .copywriting h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+    padding-top: 40px;
+  }
+
+  .copywriting p {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
+  }
+
+  .discovery h1 {
+    padding-bottom: 10px;
+    font-size: 30px;
+    padding-top: 40px;
+  }
+
+  .discovery p {
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     font-size: 11px;
+  }
+
+  .wireframing h1 {
+     padding-bottom: 10px;
+     font-size: 30px;
+     padding-top: 40px;
+  }
+
+  .wireframing p {
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+  }
+
+  .ui-design h1 {
+       padding-bottom: 10px;
+       font-size: 30px;
+       padding-top: 40px;
+  }
+
+  .ui-design p {
+       padding-top: 20px;
+       padding-left: 20px;
+       padding-right: 20px;
+  }
+
+  .user-test  h1 {
+       padding-bottom: 10px;
+       font-size: 30px;
+       padding-top: 40px;
+  }
+                    
+  .user-test  p {
+       padding-top: 20px;
+       padding-left: 20px;
+       padding-right: 20px;
+  }
+
+  .final-exam h1 {
+       width: 200px;
+       border-bottom: 2px solid rgb(29, 27, 27);
+       padding-bottom: 10px;
+       font-size: 30px;
+       padding-top: 40px;
+  }
+                        
+  .final-exam p {
+       padding-top: 20px;
+       padding-left: 20px;
+       padding-right: 20px;
+  }
+                        
 }
   
   
