@@ -1,45 +1,49 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   <link rel="stylesheet" href="assets/css/contactme.css">
   <title>Contattami</title>
 </head>
 <body>
-    <section>
-        <div class="form-box">
-            <div class="form-value">
-                <form action="">
-                    <h2>Contattami!</h2>
-                    <p><em>Desideri contattarmi? Compila i seguenti campi!</em></p>
+ <section>
+    <div class="form-box">
+     <div class="form-value">
+      <form target="_blank" action="https://formsubmit.co/samuele.verulento@gmail.com" method="POST">
+        <h2>Contattami!</h2>
+        <p><em>Compila i seguenti campi!</em></p>
                     
-                    <div class="inputbox">
-                        <input id='full-name' name='full-name' type='text' required class="form-control" required/>
-                        <label for="">Nome</label>
-                    </div>
-
-                    <div class="inputbox">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <input id='email'
-                        name='email'
-                        type='email'
-                        class="form-control" required/>
-                        <label for="">Email</label>
-                    </div>
-
-                    <div class='form-row'>
-                        <textarea id='abstract' name='messaggio'></textarea>
-                        <div class='instructions'>Scrivi qui il tuo messaggio!</div>
-                              </div>
-
-                    <div class='form-row'>
-                        <button type="submit">Invia</button>
-                          </div>
-                          <div class="Home">
-                            <p>Torna alla <a href="index.html">Home</a></p>
-                </form>
-            </div>
+        <div class="inputbox">
+         <input id='full-name' name='full-name' type='text' required class="form-control" required/>
+         <label for="">Nome</label>
         </div>
-    </section>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <div class="inputbox">
+         <ion-icon name="mail-outline"></ion-icon>
+         <input id='email'
+              name='email'
+              type='email'
+              class="form-control" required/>
+         <label for="">Email</label>
+        </div>
+
+        <div class='form-row'>
+          <textarea id='abstract' name='messaggio'></textarea>
+          <div class='instructions'>Scrivi qui il tuo messaggio!</div>
+        </div>
+
+        <div class='form-row'>
+          <button type="submit">Invia</button>
+        </div>
+     </form>
+                          
+       <div class="Home">
+         <p>Torna alla <a href="index.html">Home</a></p>
+       </div>
+    </div>
+</section>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

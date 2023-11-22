@@ -85,7 +85,6 @@
     text-decoration: underline;
   }
   
-  
   .hero {
     background-image: url(../img/hero.svg);
     background-repeat: no-repeat;
@@ -104,7 +103,6 @@
   .nav button:visited {
     display: block;
     text-decoration: none;
-  
     color: #FFF;
     background-color: #4A90E2;
     font-weight: bold;
@@ -668,11 +666,8 @@
        padding-top: 20px;
        padding-left: 20px;
        padding-right: 20px;
-  }
-                        
+  }                       
 }
-  
-  
   
   /* Desktop Styles */
   @media only screen and (min-width: 961px) {
