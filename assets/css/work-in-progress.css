@@ -81,8 +81,9 @@
     background-image: url(../img/workinprogress-mobile.svg);
     background-position: center;
     background-size: cover;
-    height: 670px;
+    height: 667px;
   }
+  
   .text {
     width: 280px;
     height: 250px;
