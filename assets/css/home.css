@@ -490,21 +490,11 @@
     background-image: url(../img/background-home-mobile.svg);
   }
 
-  .hero p {
-    position:relative;
-    top: -30px;
-    left:100px;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-  }
-
   .hero h1 {
     font-size: 40px;
     padding: 0;
-    position: relative;
-    left: 0px;
-    width: 100px;
-    text-align: center;
+    margin-right: 400px;
+    text-align: start;
   }
 
   .content {
@@ -521,17 +511,16 @@
       
   .sign-up {
     width: 90%;
-    margin-top: 0%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 9px;
     padding-left: 0%;
     height: 250px;  
   }
   
   .my-work h1 {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 50px;
     font-weight: bold;
 }

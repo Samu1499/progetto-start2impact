@@ -80,7 +80,7 @@
     background-image: url(../img/workinprogress-mobile.svg);
     background-position: center;
     background-size: cover;
-    height: 667px;
+    min-height: 700px;
   }
   
   .text {
