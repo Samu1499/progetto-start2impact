@@ -194,9 +194,10 @@
 
   .content {
     width: 40%;
-    background-image: url(../img/chisono.jpg);
+    background-image: url(../img/chi-sono.png);
+    background-position: center;
     color:white;
-    font-size: 50px;
+    font-size: 40px;
     justify-content: center;
     align-items: center;
     margin-left: 10%;
@@ -214,7 +215,6 @@
     margin-right: 10%;
     text-align: left;
     font-size: 15px;
-    
   }
       
       
@@ -319,6 +319,11 @@
     justify-content: flex-start;
     padding-top: 25px;
     text-align: left;
+  }
+
+  .content h1 {
+    margin-left: 200px;
+    margin-bottom: 150px;
   }
 
   .logo-design h1 {
@@ -502,11 +507,13 @@
     font-size: 50px;
     margin-left: 5%;
     margin-right: 5%;
-    height: 100px;
+    height: 200px;
   }
   
   .content h1 {
     font-size: 35px;
+    margin-top: 150px;
+    margin-left: 100px;
   }
       
   .sign-up {

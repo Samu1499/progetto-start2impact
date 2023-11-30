@@ -54,7 +54,7 @@ section{
 .inputbox input:invalid {
     color: #D55C5F;
     box-shadow: none; 
-   font-weight: bold;
+    font-weight: bold;
 }
 
 h2{
