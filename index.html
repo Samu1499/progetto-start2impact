@@ -26,7 +26,6 @@
   <title>Web Page Samuele Verulento</title>
   <link href="https: //fonts.googleapis.com/css2?family=Calistoga & family= Young+Serif & display =swap" rel="stylesheet">
   <link rel='stylesheet' href='assets/css/home.css'/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
   .serif {
     font-family: 'Young Serif', serif;
@@ -38,15 +37,19 @@
 <meta property="og:url" content="https://www.youtube.com/channel/UCixjVY5LQFT3ZPZwCli5J0w" />
 </head>
 <body>
-  <header class="header">
-    <nav>
-      <ul>
-        <li class='selected'>Home</li>
-        <li><a href='curriculum.html'>Curriculum</a></li>
-        <li><a href= 'https://www.youtube.com/channel/UCixjVY5LQFT3ZPZwCli5J0w'>Il Mio Canale</a></li>
-        <li><a href='contactme.html'>Contattami</a></li>
-      </ul>
-    </nav>
+
+  <header class="top-nav">
+   <div class="logo"><a href="index.html" class="active"><em>SV</em></a></div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li class='selected'>Home</li>
+      <li><a href='curriculum.html'>Curriculum</a></li>
+      <li><a href='contactme.html'>Contattami</a></li>
+      <li><a href='https://www.youtube.com/channel/UCixjVY5LQFT3ZPZwCli5J0w'>Il Mio Canale</a></li>
+    </ul>
   </header>
 
     <div class='hero'>
@@ -82,7 +85,7 @@
 
      <div class='page'>
       <section class= 'section content serif'>
-        <h1>Chi sono?</h1>
+        <h2>Chi sono?</h2>
         
     </section>
     
@@ -93,47 +96,47 @@
       </section>
     
        <div class="my-work calistoga">
-       <h1>I Progetti.</h1>
+       <h2>I Progetti.</h2>
        </div>
     
-      <div class='section logo-design serif'>
-        <h1><a class='button' href='work-in-progress.html'>Graphic and <br/>Logo Design</h1></a>
+       <a href='work-in-progress.html' class='section logo-design serif' target="_blank">
+        <h2>Graphic and <br/>Logo Design</h2>
         <p><em>Coming soon!</em></p>
-      </div>
+       </a>
 
-      <div class='section copywriting serif'>
-        <h1><a class='button' href='portfolio/progetto-copywriting-di-samuele-verulento.pdf'>Copywriting</h1></a>
+      <a class='section copywriting serif' href='portfolio/progetto-copywriting-di-samuele-verulento.pdf' target="_blank">
+        <h2>Copywriting</h2>
         <p>Il Copywriting è un'attività di marketing che consiste nel saper scrivere testi con lo scopo di catturare l’attenzione del lettore, a tal punto da convincerlo ad eseguire un’azione concreta, come acquistare un prodotto. </p>
-      </div>
+      </a>
 
-      <div class='section discovery serif'>
-        <h1><a class='button' href='portfolio/progetto-discovery-1-2-samuele-verulento.pdf'>Discovery</h1></a>
+      <a class='section discovery serif' href='portfolio/progetto-discovery-1-2-samuele-verulento.pdf' target="_blank">
+        <h2>Discovery</h2>
         <p>La User Research, o fase Discovery, ci permette di studiare i nostri utenti e capire i loro bisogni e le loro motivazioni. Questo ci rende capaci di progettare un servizio in grado di soddisfare appieno il nostro target.  </p>
-      </div>
+      </a>
 
-      <div class='section wireframing serif'>
-        <h1><a class='button' href='work-in-progress.html'>Wireframing</h1></a>
+      <a href='work-in-progress.html' class='section wireframing serif' target="_blank">
+        <h2>Wireframing</h2>
         <p><em>Coming soon!</em></p>
-      </div>
+      </a>
 
-    <div class='section ui-design serif'>
-        <h1><a class='button' href='work-in-progress.html'>UI Design</h1></a>
+    <a href='work-in-progress.html' class='section ui-design serif' target="_blank">
+        <h2>UI Design</h2>
         <p><em>Coming soon!</em></p>
-    </div>
+    </a>
 
-    <div class='section user-test serif'>
-        <h1><a class='button' href='work-in-progress.html'>User Test</h1></a>
+    <a href='work-in-progress.html' class='section user-test serif' target="_blank">
+        <h2>User Test</h2>
         <p><em>Coming soon!</em></p>
-    </div>
+    </a>
 
-    <div class='section final-exam serif'>
-        <h1><a class='button-1' href='work-in-progress.html'>Test finale UI/UX Design</h1></a>
+    <a href='work-in-progress.html'class='section final-exam serif' target="_blank">
+        <h2>Test finale UI/UX Design</h2>
         <p><em>Coming soon!</em></p>
-    </div>
+    </a>
     </div>
 
     <footer class="footer">
-      
      </footer>
+
    </body>
 </html>
