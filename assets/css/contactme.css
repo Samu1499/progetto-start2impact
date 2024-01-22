@@ -342,8 +342,9 @@ button{
     section{
         background: url('../img/contactme-desktop.svg') no-repeat;
         background-size: cover ;
+        height: 700px;
      }
-}
+ }
 
 @media (max-width: 700px) {
     .menu-button-container {
@@ -390,4 +391,4 @@ button{
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
-  }
+}
